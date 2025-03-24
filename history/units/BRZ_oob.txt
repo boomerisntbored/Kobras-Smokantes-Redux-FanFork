@@ -1,20 +1,3 @@
-leader = {
-	name = "Jair Messias Bolsonaro"
-	date = 1824.1.1
-	type = land
-	personality = defence_5.1
-	background = attack_1.1
-	prestige = 1
-}
-
-leader = {
-	name = "Luís Inácio Lula"
-	date = 1824.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_5.1
-	prestige = 1
-}
 
 leader = {
 	name = "Sebastião Pinto"
