@@ -1963,85 +1963,85 @@
 #Mexico City (508000/127000 POPS)
 2172 = {
     aristocrats = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 2310
     }
 
     bureaucrats = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 490
     }
 
     officers = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 315
     }
 
     clergymen = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 1085
     }
 
     artisans = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 14000
     }
 
     artisans = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 14000
     }
 
     artisans = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 9800
     }
 
     soldiers = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 1120
     }
 
     farmers = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 66150
     }
 
     clergymen = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 350
     }
 
     artisans = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 14000
     }
 
     artisans = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 12950
     }
 
     soldiers = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 700
     }
 
     farmers = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 40600
     }
@@ -2049,25 +2049,25 @@
 #Toluca (212000/53000 POPS)
 2174 = {
     aristocrats = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 1470
     }
 
     clergymen = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 280
     }
 
     artisans = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 1330
     }
 
     soldiers = {
-        culture = mexican
+        culture = nahua
         religion = catholic
         size = 9800
     }

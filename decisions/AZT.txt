@@ -1,5 +1,6 @@
 political_decisions = {
 	the_voice_of_the_old_Quetzalcoatl = {
+	    picture = "azteca"
 		potential = {
 			tag = MEX
 			NOT = {
@@ -40,6 +41,11 @@ political_decisions = {
 					limit = { is_core = AZT }
 					secede_province = THIS
 				}
+			primary_culture = nahua
+			
+			
+			
+			
 			}
 
 

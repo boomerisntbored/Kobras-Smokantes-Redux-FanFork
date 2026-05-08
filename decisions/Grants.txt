@@ -2,6 +2,7 @@ political_decisions = {
 
 	will_receive = {
 		alert = no
+		picture = "grant1"
 		potential = {
 			ai = no
 			NOT = { has_country_flag = will_receive_grants }
@@ -20,6 +21,7 @@ political_decisions = {
 
 	will_give = {
 		alert = no
+		picture = "grant2"
 		potential = {
 			ai = no
 			NOT = { has_country_flag = will_give_grants }
@@ -34,6 +36,7 @@ political_decisions = {
 
 	will_not_give = {
 		alert = no
+		picture = "grant1"
 		potential = {
 			ai = no
 			has_country_flag = will_give_grants

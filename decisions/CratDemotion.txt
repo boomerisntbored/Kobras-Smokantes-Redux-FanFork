@@ -1,5 +1,6 @@
 political_decisions = {
 	demote_crats = {
+	    picture = "burocrata"
 		potential = {
 			NOT = { has_country_modifier = recently_demoted }
 		}

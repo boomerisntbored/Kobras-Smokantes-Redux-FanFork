@@ -1,13 +1,10 @@
 capital = 2172
 primary_culture = nahua
 culture = mexican
-culture = mayan
-culture = zapotec
-culture = tarascan
 religion = catholic
 government = democracy
 plurality = 25.0
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.15
 non_state_culture_literacy = 0.15
 civilized = yes
