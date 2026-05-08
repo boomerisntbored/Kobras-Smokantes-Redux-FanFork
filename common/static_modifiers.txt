@@ -142,7 +142,7 @@ base_values = {
 war = {
 	max_war_exhaustion = 100			#base max at war.
 	supply_consumption = -0.5
-	#war_exhaustion = 0.1
+	war_exhaustion = 0.1
 	badboy = -0.15
 }
 
@@ -203,7 +203,7 @@ civ_nation = {
 }
 
 unciv_nation = {
-	mobilisation_size = -0.1
+	#mobilisation_size = 
 	diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.8
 }

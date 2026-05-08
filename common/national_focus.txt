@@ -46,7 +46,7 @@ promotion_focus =
 {
 	promote_aristocrats =
 	{
-		aristocrats = 0.3 #30% more likeley to become artisans
+		aristocrats = 0.2 #30% more likeley to become artisans
 		icon = 5
 		outliner_show_as_percent = yes
 	}
@@ -67,7 +67,7 @@ promotion_focus =
 
 	promote_capitalists =
 	{
-		capitalists = 0.3 #30% more likeley to become this type
+		capitalists = 0.2 #30% more likeley to become this type
 		icon = 8
 		outliner_show_as_percent = yes
 		limit = {
@@ -77,14 +77,14 @@ promotion_focus =
 
 	promote_clergymen =
 	{
-		clergymen = 0.20 #20% more likeley to become this type
+		clergymen = 0.2 #20% more likeley to become this type
 		icon = 9
 		outliner_show_as_percent = yes
 	}
 
 	promote_clerks =
 	{
-		clerks = 0.20 #20% more likeley to become this type
+		clerks = 0.2 #20% more likeley to become this type
 		icon = 10
 		outliner_show_as_percent = yes
 		limit = {
@@ -94,7 +94,7 @@ promotion_focus =
 
 	promote_craftsmen =
 	{
-		craftsmen = 0.20 #20% more likeley to become this type
+		craftsmen = 0.2 #20% more likeley to become this type
 		icon = 11
 		outliner_show_as_percent = yes
 		limit = {
@@ -104,21 +104,21 @@ promotion_focus =
 
 	promote_farmers =
 	{
-		farmers = 0.20 #20% more likeley to become this type
+		farmers = 0.2 #20% more likeley to become this type
 		icon = 12
 		outliner_show_as_percent = yes
 	}
 
 	promote_labourers =
 	{
-		labourers = 0.20 #20% more likeley to become this type
+		labourers = 0.2 #20% more likeley to become this type
 		icon = 13
 		outliner_show_as_percent = yes
 	}
 
 	promote_officers =
 	{
-		officers = 0.3 #20% more likeley to become this type
+		officers = 0.2 #20% more likeley to become this type
 		icon = 14
 		outliner_show_as_percent = yes
 	}

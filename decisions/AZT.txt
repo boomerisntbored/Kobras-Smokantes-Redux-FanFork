@@ -1,0 +1,50 @@
+political_decisions = {
+	the_voice_of_the_old_Quetzalcoatl = {
+		potential = {
+			tag = MEX
+			NOT = {
+				has_country_flag = voice_of_the_old
+			}
+		}
+		allow = {
+			ruling_party_ideology = reactionary	
+			NOT = {
+			 	owns = 137
+			}
+			year = 1837
+		}
+		effect = {
+			government = absolute_monarchy
+			MEX = {
+				all_core = { add_core = AZT }
+			}
+			change_tag = AZT
+			random_country = {
+				limit = {
+					tag = AZT
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = AZT }
+			}
+			random_country = {
+				limit = {
+					tag = AZT
+					exists = yes
+					ai = no
+				}
+				country_event = 98650
+
+			}
+				any_owned = {
+					limit = { is_core = AZT }
+					secede_province = THIS
+				}
+			}
+
+
+		}
+	}
+
+
+ 

@@ -57,9 +57,9 @@ country = {
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
 	MIN_MOBILIZE_LIMIT = 3,
 	POP_GROWTH_COUNTRY_CACHE_DAYS = 30, -- period of cached pop growth (used for player)
-	NEWSPAPER_PRINTING_FREQUENCY = 350, -- days frequency when the news attempt to be printed (may not print if not enough facts collected, and retry after another X days)
-	NEWSPAPER_TIMEOUT_PERIOD = 890, -- the max period for news that may be printed. The probability is decreased with time.
-	NEWSPAPER_MAX_TENSION = 750, -- when tension of printing gets this high, the newspaper will attempt to be printed immediately.
+	NEWSPAPER_PRINTING_FREQUENCY = 99999, -- days frequency when the news attempt to be printed (may not print if not enough facts collected, and retry after another X days)
+	NEWSPAPER_TIMEOUT_PERIOD = 99999, -- the max period for news that may be printed. The probability is decreased with time.
+	NEWSPAPER_MAX_TENSION = 999999, -- when tension of printing gets this high, the newspaper will attempt to be printed immediately.
 	NAVAL_BASE_SUPPLY_SCORE_BASE = 10, -- base value that is powered by level of naval base. Determines the naval supplying capabilities.
 	NAVAL_BASE_SUPPLY_SCORE_EMPTY = 2, -- min value for coastal provinces with no naval base.
 	NAVAL_BASE_NON_CORE_SUPPLY_SCORE = 0.3, -- modifier for supply score for naval bases that are not in core provinces.
@@ -94,7 +94,7 @@ country = {
 },
 
 economy = {
-	MAX_DAILY_RESEARCH = 2000,
+	MAX_DAILY_RESEARCH = 100,
 	LOAN_BASE_INTEREST = 0.02,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 10,
 	BANKRUPTCY_FACTOR = 0.2,
@@ -115,14 +115,14 @@ economy = {
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.25, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 1000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
-	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.75, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
+	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
-	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.2,		-- how fast pops are Fired when there is a low demand
-	EMPLOYMENT_HIRE_LOWEST = 0.01,				-- we Hire pops no slower then x% of total required per day
-	EMPLOYMENT_FIRE_LOWEST = 0.01,				-- we Fire pops no slower then x% of total required per day
-	TRADE_CAP_LOW_LIMIT_LAND = 0.05, 				-- the lowest % the slider can go for land units
-	TRADE_CAP_LOW_LIMIT_NAVAL = 0.25, 			-- the lowest % the slider can go for naval units
+	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.4,		-- how fast pops are Fired when there is a low demand
+	EMPLOYMENT_HIRE_LOWEST = 0.001,				-- we Hire pops no slower then x% of total required per day
+	EMPLOYMENT_FIRE_LOWEST = 0.001,				-- we Fire pops no slower then x% of total required per day
+	TRADE_CAP_LOW_LIMIT_LAND = 0, 				-- the lowest % the slider can go for land units
+	TRADE_CAP_LOW_LIMIT_NAVAL = 0.3, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0, 		-- the lowest % the slider can go for constructions
 	FACTORY_PURCHASE_MIN_FACTOR = 0.75,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.025		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
@@ -135,7 +135,7 @@ military = {
 	BASE_COMBAT_WIDTH = 30,
 	POP_MIN_SIZE_FOR_REGIMENT = 1000,
 	POP_SIZE_PER_REGIMENT = 3000,
-	SOLDIER_TO_POP_DAMAGE = 0.25,
+	SOLDIER_TO_POP_DAMAGE = 0.2,
 	LAND_SPEED_MODIFIER = 1,
 	NAVAL_SPEED_MODIFIER = 2,
 	EXP_GAIN_DIV = 0.05,
@@ -151,8 +151,8 @@ military = {
 	LEADER_PRESTIGE_TO_MORALE_FACTOR = 0.8, -- f.ex. 100% of prestige = +10% morale
 	LEADER_PRESTIGE_TO_MAX_ORG_FACTOR = 0.7, -- f.ex. 100% of prestige = +10 max org
 	LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.05, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
-	LEADER_PRESTIGE_LAND_GAIN = 0.3, -- extra speed gain on prestige for land combat
-	LEADER_PRESTIGE_NAVAL_GAIN = 0.3, -- extra speed gain on prestige for naval combat
+	LEADER_PRESTIGE_LAND_GAIN =0.3, -- extra speed gain on prestige for land combat
+	LEADER_PRESTIGE_NAVAL_GAIN =0.3, -- extra speed gain on prestige for naval combat
 	NAVAL_COMBAT_SEEKING_CHANCE = 0.5, -- base chance of picking a target (increased by leader reconaissance)
 	NAVAL_COMBAT_SEEKING_CHANCE_MIN = 0.1, -- low cap for chance of picking the target
 	NAVAL_COMBAT_SELF_DEFENCE_CHANCE = 2.0, -- scale up the chance of choosing the target that is already shooting at us.
@@ -171,12 +171,12 @@ military = {
 	NAVAL_COMBAT_STACKING_TARGET_CHANGE = 0.03, -- increase chance to change/drop target when suffering stacking penalty
 	NAVAL_COMBAT_STACKING_TARGET_SELECT = 0.2, -- modifier for how much the stacking penalty affects the target selection.
 	NAVAL_COMBAT_MAX_TARGETS = 6, -- max number of ships that may target the same enemy ship
-	AI_BIGSHIP_PROPORTION = 0.2, -- fraction of ships in the navy that should be ships of the line
-	AI_LIGHTSHIP_PROPORTION = 0.5, -- fraction of ships in the navy that should be cruisers, frigates etc
-	AI_TRANSPORT_PROPORTION = 0.3, -- fraction of ships in the navy that should be should be transports
+	AI_BIGSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be ships of the line
+	AI_LIGHTSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be cruisers, frigates etc
+	AI_TRANSPORT_PROPORTION = 0.2, -- fraction of ships in the navy that should be should be transports
 	AI_CAVALRY_PROPORTION = 0.15, -- fraction of brigades that should be cavalry
-	AI_SUPPORT_PROPORTION = 0.5, -- fraction of brigades that should be artillery and other support units
-	AI_SPECIAL_PROPORTION = 0.0, -- fraction of brigades that should be engineers and tanks
+	AI_SUPPORT_PROPORTION = 0.3, -- fraction of brigades that should be artillery and other support units
+	AI_SPECIAL_PROPORTION = 0.15, -- fraction of brigades that should be engineers and tanks
 	AI_ESCORT_RATIO = 2.0, -- ratio of escorts to transports in invasion fleets
 	AI_ARMY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
 	AI_NAVY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
@@ -618,23 +618,23 @@ diplomacy = {
 
 
 pops = {
-	BASE_CLERGY_FOR_LITERACY = 0.005,
-	MAX_CLERGY_FOR_LITERACY = 0.04,
+	BASE_CLERGY_FOR_LITERACY = 0.005, 
+	MAX_CLERGY_FOR_LITERACY = 0.04, 
 	LITERACY_CHANGE_SPEED = 0.1,
 
 
-	ASSIMILATION_SCALE = 0.0005,
-	CONVERSION_SCALE = 0.015,
-	IMMIGRATION_SCALE = 0.0055,
+	ASSIMILATION_SCALE = 0.004,
+	CONVERSION_SCALE = 0.01,
+	IMMIGRATION_SCALE = 0.004,
 
-	PROMOTION_SCALE = 0.0035,
-	PROMOTION_ASSIMILATION_CHANCE = 0,
+	PROMOTION_SCALE = 0.002,
+	PROMOTION_ASSIMILATION_CHANCE = 1.0,
 	LUXURY_THRESHOLD = 500,
-	BASE_GOODS_DEMAND = 0.90,
+	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
 	LIFE_RATING_GROWTH_BONUS = 0.0001,
-	LIFE_NEED_STARVATION_LIMIT = 0.80,
+	LIFE_NEED_STARVATION_LIMIT = 0.5,
 
 	MIL_LACK_EVERYDAY_NEED = 0.1,
 	MIL_HAS_EVERYDAY_NEED = -0.1,
@@ -646,7 +646,7 @@ pops = {
 	MIL_REFORM_IMPACT = 2,
 	MIL_WAR_EXHAUSTION = 0.005,
 	MIL_NON_ACCEPTED = 0.05,
-
+		
 	CON_LITERACY = 0.1,
 	CON_LUXURY_GOODS = 0.1,
 	CON_POOR_CLERGY = -2.5,
@@ -657,26 +657,26 @@ pops = {
 	RULING_PARTY_ANGRY_CHANGE = 2,
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
-
+	
 	NATIONAL_FOCUS_DIVIDER = 10000.0,
-
+	
 	POP_SAVINGS = 0.018,
-
+	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
 	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 6.5, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_DEFEAT = 3.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
-
+	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
-	ARTISAN_MIN_PRODUCTIVITY = 5, -- Minimum efficieny of an artisan
-	SLAVE_GROWTH_DIVISOR = 2, -- Slaves have N times lower growth
-
+	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficieny of an artisan
+	SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
+	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxuary goods
-	INVENTION_IMPACT_ON_DEMAND = 0.0075, -- how much each invention in a country increases demand for a product in percent
+	INVENTION_IMPACT_ON_DEMAND = 0.005, -- how much each invention in a country increases demand for a product in percent
 	ARTISAN_SUPPRESSED_COLONIAL_GOODS_CATEGORY = 0, -- Goods category index not produced in colonies
 	ISSUE_MOVEMENT_JOIN_LIMIT = 8,
 	ISSUE_MOVEMENT_LEAVE_LIMIT = 7,

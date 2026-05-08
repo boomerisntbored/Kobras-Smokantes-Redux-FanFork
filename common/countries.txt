@@ -69,6 +69,10 @@ SCO		= "countries/Scotland.txt"
 SPA		= "countries/Spain.txt"
 WLL		= "countries/Wallonia.txt"
 
+# Kobras Larp
+
+AZT		= "countries/Aztec Empire.txt"
+
 # Germany
 ANH		= "countries/Anhalt.txt"
 BAD		= "countries/Baden.txt"
