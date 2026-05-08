@@ -4,13 +4,16 @@
 
 
 #these names can NOT be removed or changes, as the code uses them....
-
+#########################################################################
+ # Kobras larp modifiers
+ 
+ assimilation_buff = {
+    pop_militancy_modifier = -0.2
+    assimilation_rate = 100
+    icon = 9
+}
 ##########################################################################
 # Difficulty Modifiers
-##########################################################################
-
-
-
 very_easy_player = {
 	supply_consumption = -0.5
 	research_points_modifier = 0.5

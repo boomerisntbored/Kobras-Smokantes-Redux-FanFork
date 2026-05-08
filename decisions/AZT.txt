@@ -47,7 +47,7 @@ political_decisions = {
 
 		}
 	begin_the_assimilation = {
-		picture = "restore_order_hun"
+		picture = "azteca1"
 		potential = {
 			tag = AZT
 			has_country_flag = voice_of_the_old
