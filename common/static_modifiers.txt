@@ -9,7 +9,7 @@
  
  assimilation_buff = {
     pop_militancy_modifier = -0.2
-    assimilation_rate = 100
+    assimilation_rate = 700
     icon = 9
 }
 ##########################################################################

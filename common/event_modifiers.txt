@@ -2,6 +2,13 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+####### KOBRAS LARP #######
+
+assimilation_azt = {
+    population_growth = 0.000001
+	icon = 9
+	}
+
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
 	population_growth = 0.005

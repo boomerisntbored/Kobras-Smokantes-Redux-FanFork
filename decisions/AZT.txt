@@ -52,7 +52,7 @@ political_decisions = {
 			tag = AZT
 			has_country_flag = voice_of_the_old
 			NOT = {
-			has_country_flag = assimilation_azt
+			 has_country_modifier = assimilation_azt
 		    }
 		}
 		allow = {
@@ -68,11 +68,56 @@ political_decisions = {
 					duration = 1825
 				}
 			}
-			prestige = 10
-			set_country_flag = assimilation_azt
+			prestige = 5
+			add_country_modifier = {
+			      name = "assimilation_azt"
+				  duration = 1825
 		}		
-    }
-}
-
+    } }
+	
+	central_america = {
+	      picture = "azteca2"
+		  potential = {
+		  tag = AZT
+		  }
+		  allow = {
+		   year = 1845
+		   NOT = {
+		   has_country_modifier = assimilation_azt
+		   }
+		  }
+		  effect {
+		   add_country_modifier = {
+			      name = "assimilation_azt"
+				  duration = 1825
+		}
+		   UCA = {
+				all_core = { add_core = AZT }
+			}
+			any_pop = { reduce_pop = 0.90 }
+		         }
+ }
+   colombia = {
+    picture = "azteca3"
+	potential = {
+	    tag = AZT
+		}
+		allow = {
+		year = 1855
+		NOT = {
+		has_country_modifier = assimilation_azt
+		}
+		}
+		effect {
+		add_country_modifier = {
+			      name = "assimilation_azt"
+				  duration = 1825
+		}
+		CLM = {
+		 all_core = {add_core = AZT }
+		 }
+		 any_pop = { reduce_pop = 0.90}
+		 }
+		 }
 
  
