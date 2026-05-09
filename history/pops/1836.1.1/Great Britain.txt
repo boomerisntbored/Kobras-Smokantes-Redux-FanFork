@@ -144,7 +144,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 4000
+		size = 6000
 	}
 
 	artisans = {
@@ -180,7 +180,7 @@
 	craftsmen = {
 		culture = british
 		religion = catholic
-		size = 1500
+		size = 2200
 	}
 
 	artisans = {
@@ -262,7 +262,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 11500
+		size = 17250
 	}
 
 	artisans = {
@@ -310,7 +310,7 @@
 	craftsmen = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 15000
 	}
 
 	artisans = {
@@ -400,7 +400,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 1100
+		size = 1650
 	}
 
 	artisans = {
@@ -514,7 +514,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 3000
+		size = 4500
 	}
 
 	artisans = {
@@ -572,7 +572,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 30000
+		size = 45000
 	}
 
 	artisans = {
@@ -614,7 +614,7 @@
 	craftsmen = {
 		culture = british
 		religion = catholic
-		size = 1100
+		size = 3375
 	}
 
 	artisans = {
@@ -638,7 +638,7 @@
 	craftsmen = {
 		culture = irish
 		religion = catholic
-		size = 2250
+		size = 3375
 	}
 
 	artisans = {
@@ -682,7 +682,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 22500
+		size = 33750
 	}
 
 	artisans = {
@@ -1025,7 +1025,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 7000
+		size = 10500
 	}
 
 	artisans = {
@@ -1163,7 +1163,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 3500
+		size = 5250
 	}
 
 	artisans = {
@@ -1227,7 +1227,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 5000
+		size = 7500
 	}
 
 	artisans = {
@@ -1555,7 +1555,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 7000
+		size = 10500
 	}
 
 	artisans = {
@@ -1751,7 +1751,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 119000
+		size = 178500
 	}
 
 	artisans = {
@@ -1895,7 +1895,7 @@
 	craftsmen = {
 		culture = irish
 		religion = catholic
-		size = 4000
+		size = 6000
 	}
 
 	artisans = {
