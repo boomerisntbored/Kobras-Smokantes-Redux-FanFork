@@ -5,6 +5,7 @@ add_core = UKR
 add_core = POL
 add_core = RUT
 add_core = PLC
+add_core = HUN
 trade_goods = coal
 life_rating = 35
 1836.1.2 = {
