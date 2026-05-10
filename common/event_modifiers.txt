@@ -9,6 +9,17 @@ assimilation_azt = {
 	icon = 9
 	}
 
+uk_opium_withdrawal = {
+ #   global_pop_needs = 0.2  nao ta funcionado olhar depois
+    icon = 11
+}
+chinese_opium_addiction = {
+    pop_militancy_modifier = 0.1   
+  #  global_pop_needs = 0.2           msm coisa
+    local_rgo_output = -0.25         # -25% of rgo
+    icon = 11                       
+}
+
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
 	population_growth = 0.005

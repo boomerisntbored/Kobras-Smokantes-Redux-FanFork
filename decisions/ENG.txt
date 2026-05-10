@@ -249,4 +249,58 @@ political_decisions = {
 			factor = 0
 		}
 	}
+
+	invest_in_irish = {
+		picture = embrace_minority
+		potential = {
+			tag = ENG
+			NOT = {
+				exists = IRE
+				accepted_culture = irish
+			}
+			OR = {
+				government = democracy
+				government = hms_government
+				government = proletarian_dictatorship
+			}
+		}
+		
+		allow = {
+			prestige = 100
+			money = 3000000
+			NOT = { citizenship_policy = residency }
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			set_country_flag = invest_in_irish
+			add_accepted_culture = irish
+			prestige = -100
+			treasury = -2000000
+			any_pop = {
+				limit = {
+					has_pop_culture = irish
+					has_pop_religion = catholic
+				}
+				militancy = -5
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						government = democracy
+						citizenship_policy = full_citizenship
+						any_state = {
+							any_owned_province = { is_core = IRE }
+							average_militancy = 7
+						}
+					}
+				}
+			}
+		}
+	}
 }
