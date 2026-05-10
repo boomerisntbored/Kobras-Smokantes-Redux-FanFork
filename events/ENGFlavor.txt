@@ -39,3 +39,47 @@ country_event = {
 	}
 }
 
+country_event = {
+    id = 999001
+    title = "The Opium Crisis in China"
+    desc = "The Qing goverment has destroyed our opium reserve in china and repel our merchants of trading in Qing territory, should we interven or ignore it?"
+    picture = "opium"
+    
+    trigger = {
+        tag = ENG
+        year = 1839
+        exists = CHI
+        NOT = { has_country_flag = opium_crisis_resolved }
+    }
+    
+    mean_time_to_happen = {
+        months = 2
+    }
+    
+    # Option 1: do the war 
+    option = {
+        name = "We need to protect our merchants!"
+        set_country_flag = opium_crisis_resolved
+        CHI = { set_country_flag = opium_war_target } # For future events
+        
+	leave_alliance = CHI
+	war = {
+            target = CHI
+            attacker_goal = {
+                casus_belli = treaty_port_casus_belli
+            }
+    }
+}
+    
+    # Option 2: dont do the war (several debuffs)
+    option = {
+        name = "This are not Worth for our losses"
+        set_country_flag = opium_crisis_resolved
+        prestige = -100
+        militancy = 7
+        add_country_modifier = {
+            name = uk_opium_withdrawal
+            duration = 1825 # 5 years
+        }
+    }
+}

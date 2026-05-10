@@ -170,16 +170,81 @@ country_event = {
 	}
 }
 
+
 country_event = {
-	id = 90904
-	title = "EVTNAME90902"
-	desc = "EVTDESC90902"
-	picture = "Celebration"
+    id = 999002
+    title = "Unequal Treaties and Opium Addict"
+    desc = "We was defeated by the West monsters, now they took our ports and opium is spreading around our country!"
+    picture = "opium"
+    
+    trigger = {
+        tag = CHI
+        has_country_flag = opium_war_target
+        NOT = { war_with = ENG }
+  
+        ENG = {
+            any_owned_province = {
+                is_core = CHI
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = "A national embarassment"
+        clr_country_flag = opium_war_target
+        prestige = -20
+        
 
-	is_triggered_only = yes
+			any_owned = {
+            limit = {
+                is_core = CHI
+            }
+            add_province_modifier = {
+                name = chinese_opium_addiction
+                duration = 3650 # 10 years
+            }
+    }
+  }
+}
 
-	option = {
-		name = "EVTOPTA90902"
-		civilized = yes
-	}
+country_event = {
+    id = 999003
+    title = "The Dragon Wins"
+    desc = "Against all the bets, The Qing Empire managed to win against the formal most strongest nation in their world, because the real powerful nation, its here..."
+    picture = "civilization"
+    
+    trigger = {
+        tag = CHI
+        has_country_flag = opium_war_target
+        NOT = { war_with = ENG }
+        NOT = {
+            ENG = {
+                any_owned_province = {
+                    is_core = CHI
+                }
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = "Uma nova era para a Dinastia!"
+        clr_country_flag = opium_war_target
+        prestige = 50
+        research_points = 15000 
+        
+        # Simula as reparações 
+        treasury = 500000 
+        ENG = {
+            prestige = -50
+            treasury = -500000
+        }
+    }
 }

@@ -68,22 +68,6 @@ political_decisions = {
 		}
 	}
 	
-	marrying_the_frogs = {
-		potential = {
-			OR = {
-				tag = BNF
-			}
-			NOT = { has_country_flag = frogs_married }
-		}
-		allow = {
-			own = 399
-		}
-		effect = {
-			set_country_flag = frogs_married
-			add_accepted_culture = french
-			badboy = 10
-		}
-	}
 	
 	prioritise_the_flemish = {
 		potential = {
