@@ -1,5 +1,3 @@
-owner = WOL
-controller = WOL
-add_core = WOL
+
 trade_goods = cattle
 life_rating = 15

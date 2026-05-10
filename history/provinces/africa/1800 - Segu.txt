@@ -1,7 +1,4 @@
-owner = SEG
-controller = SEG
-add_core = SEG
-add_core = MAS
+s
 trade_goods = iron
 life_rating = 15
 

@@ -1,6 +1,4 @@
-owner = SEG
-controller = SEG
-add_core = SEG
-add_core = MAS
+
+
 trade_goods = wool
 life_rating = 30

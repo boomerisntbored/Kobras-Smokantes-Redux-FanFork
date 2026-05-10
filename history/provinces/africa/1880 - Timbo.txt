@@ -1,5 +1,5 @@
-owner = JAL
-controller = JAL
-add_core = JAL
+owner = GBU
+controller = GBU
+add_core = GBU
 trade_goods = iron
 life_rating = 35

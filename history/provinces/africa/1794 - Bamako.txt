@@ -1,6 +1,3 @@
-owner = SEG
-controller = SEG
-add_core = SEG
-add_core = MAS
+A
 trade_goods = fruit
 life_rating = 30

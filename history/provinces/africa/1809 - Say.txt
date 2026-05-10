@@ -1,5 +1,3 @@
-owner = DND
-controller = DND
-add_core = DND
+s
 trade_goods = grain
 life_rating = 30
