@@ -1,3 +1,4 @@
-s
 trade_goods = grain
 life_rating = iron
+
+add_core = SOK

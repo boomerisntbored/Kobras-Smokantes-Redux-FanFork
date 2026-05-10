@@ -270,72 +270,45 @@ political_decisions = {
 	
 	become_mali_empire = {
 		
-		potential = {
-			OR = {
-				tag = MAS
-				tag = TOO
-				tag = JAL
-				tag = KNG
-				tag = WOL
-				tag = DND
-				tag = DAM
-				tag = SOK
-				tag = TOU
-			}
+		potential = {			
+			tag = SOK	
 			NOT = { has_global_flag = mali_empire_created }
 		}
 
 		allow = {
 			war = no
-			government = absolute_monarchy
-			owns = 1898
-			owns = 1786
-			owns = 1880
-			owns = 1800
-			owns = 1910
+			government = absolute_monarchy			
 			owns = 1901
-			owns = 1926
-			owns = 1928
-			OR = {
-				owns = 1898
-				KNG = { alliance_with = THIS }
-			}
-			OR = {
-				owns = 1901
-				MOS = { alliance_with = THIS }
-			}
+			
 		}
 
 		effect = {
 			set_global_flag = mali_empire_created
 			prestige = 20
-			add_accepted_culture = fulbe
-			add_accepted_culture = bambara
-			add_accepted_culture = songhai
-			add_accepted_culture = tuareg
-			add_accepted_culture = wolof
-			add_accepted_culture = mande
-			add_accepted_culture = dyula
-			add_accepted_culture = senufo
-			add_accepted_culture = mossi
 			add_accepted_culture = african_minor
-			random_country = {
-				limit = {
-					tag = KNG
-					ai = yes
-					NOT = { tag = THIS }
-				}
-				annex_to = THIS
-			}
-			random_country = {
-				limit = {
-					tag = MOS
-					ai = yes
-				}
-				annex_to = THIS
-			}
 			all_core = { add_core = MLI }
-			SEG = { all_core = { add_core = MLI } }
+			capital = 1794
+			change_tag = MLI
+			add_country_modifier = {
+				name = mali_restoration_boost
+				duration = 	21915	
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+claim_our_seas = {
+  potential = { tag = MLI}
+  allow = {  
+        nationalism_n_imperialism = 1
+		war = no
+          }
+		  effect = {              
+		   SEG = { all_core = { add_core = MLI } }
 			DND = { all_core = { add_core = MLI } }
 			MAS = { all_core = { add_core = MLI } }
 			JAL = { all_core = { add_core = MLI } }
@@ -352,24 +325,30 @@ political_decisions = {
 			WOL = { all_core = { add_core = MLI } }
 			ARO = { all_core = { add_core = MLI } }
 			LIB = { all_core = { add_core = MLI } }
-			random_owned = {
-				limit = {
-					owner = { tag = TOU }
-				}
-				owner = {
-					all_core = { remove_core = TOU }
-				}
-			}
-			capital = 1794
-			change_tag = MLI
-			add_country_modifier = {
-				name = meiji_restoration_boost
-				duration = -1
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		   }
+		   }
+  
+ march_to_the_west = {
+ potential = {
+ NOT = { has_country_flag = march_west}
+ tag = SOK 
+ civilized = no
+ }
+ allow = {
+ war = no 
+ OR = {
+ in_sphere = USA
+ in_sphere = ENG 
+ in_sphere = FRA
+ in_sphere = SPA
+ in_sphere = RUS
+ in_sphere = PRU
+ in_sphere = AUS
+ in_sphere = TUR
+ }
+ }
+ effect = {
+      set_country_flag = march_west
+    SOK = { all_core = { secede_province = SOK}}
+}
 }

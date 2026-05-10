@@ -12,6 +12,19 @@
     assimilation_rate = 700
     icon = 9
 }
+
+mali_restoration_boost = {
+    RGO_output = 0.1
+	mobilisation_size = 0.3
+	mobilisation_economy_impact = 0.3
+	land_organisation = 0.05
+	icon = 17
+	}
+
+	
+
+
+
 ##########################################################################
 # Difficulty Modifiers
 very_easy_player = {
