@@ -174,19 +174,18 @@ country_event = {
 country_event = {
     id = 999002
     title = "Unequal Treaties and Opium Addict"
-    desc = "We was defeated by the West monsters, now they took our ports and opium is spreading around our country!"
+    desc = "We was defeated by the West monsters, now they took our ports and opium is spreading around our country!!"
     picture = "opium"
     
     trigger = {
         tag = CHI
         has_country_flag = opium_war_target
         NOT = { war_with = ENG }
-  
-        ENG = {
+               ENG = {
             any_owned_province = {
                 is_core = CHI
             }
-        }
+        
     }
     
     mean_time_to_happen = {
@@ -194,20 +193,20 @@ country_event = {
     }
     
     option = {
-        name = "A national embarassment"
+        name = "aiaiboomer"
         clr_country_flag = opium_war_target
         prestige = -20
         
 
-			any_owned = {
-            limit = {
-                is_core = CHI
-            }
-            add_province_modifier = {
+			CHI = {		     
+			all_core = {
+			add_province_modifier = {
                 name = chinese_opium_addiction
-                duration = 3650 # 10 years
+                duration = 3650 
             }
-    }
+			}
+            }
+}
   }
 }
 

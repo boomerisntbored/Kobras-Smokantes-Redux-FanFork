@@ -53,7 +53,7 @@ country_event = {
     }
     
     mean_time_to_happen = {
-        months = 2
+        months = 6
     }
     
     # Option 1: do the war 
@@ -72,14 +72,19 @@ country_event = {
 }
     
     # Option 2: dont do the war (several debuffs)
+	# inves de TODO reino recebe 20% a mais de demand goods, so a ilha britanica vai ter o debuff
     option = {
         name = "This are not Worth for our losses"
         set_country_flag = opium_crisis_resolved
         prestige = -100
         militancy = 7
-        add_country_modifier = {
-            name = uk_opium_withdrawal
-            duration = 1825 # 5 years
-        }
+        ENG = {
+		all_core = {
+		add_province_modifier = {
+                name = uk_opium_withdrawal
+                duration = 3650 
+            }
+		}
+		}
     }
 }

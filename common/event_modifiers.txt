@@ -10,15 +10,17 @@ assimilation_azt = {
 	}
 
 uk_opium_withdrawal = {
- #   global_pop_needs = 0.2  nao ta funcionado olhar depois
-    icon = 11
+  goods_demand = 0.2
+    icon = 12
 }
 chinese_opium_addiction = {
     pop_militancy_modifier = 0.1   
-  #  global_pop_needs = 0.2           msm coisa
-    local_rgo_output = -0.25         # -25% of rgo
-    icon = 11                       
+    local_rgo_output = -0.25 	
+   goods_demand = 0.2  #o modifier la nao existe é invençao sua voec é completo maluco ok e ochat gpt é amis pq ele tbm me enganou dito isso o modifier ta resolvido. assinado: paysandu
+    icon = 12                       
 }
+
+ 
 
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
