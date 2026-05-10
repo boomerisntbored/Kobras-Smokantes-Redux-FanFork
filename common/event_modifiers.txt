@@ -9,14 +9,15 @@ assimilation_azt = {
 	icon = 9
 	}
 
-uk_opium_withdrawal = {
+uk_opium_withdraw = {
   goods_demand = 0.2
+  local_artisan_output = -0.2  
     icon = 12
 }
 chinese_opium_addiction = {
     pop_militancy_modifier = 0.1   
     local_rgo_output = -0.25 	
-   goods_demand = 0.2  #o modifier la nao existe é invençao sua voec é completo maluco ok e ochat gpt é amis pq ele tbm me enganou dito isso o modifier ta resolvido. assinado: paysandu
+    goods_demand = 0.2  
     icon = 12                       
 }
 
