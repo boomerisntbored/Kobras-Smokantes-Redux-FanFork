@@ -90,7 +90,8 @@ political_decisions = {
                 tag = BOL
                 tag = PEU
             }
-            NOT = { has_country_flag = peru_bolivia_unified }
+            NOT = { has_country_flag = peru_bolivia_unified 
+			        exists = PBV}
         }
         allow = {
             owns = 2292

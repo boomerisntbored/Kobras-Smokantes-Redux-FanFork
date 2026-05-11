@@ -104,13 +104,14 @@ political_decisions = {
         potential = {
             tag = NET
             exists = NET
+			NOT = {has_country_flag = java_integrated}
         }
 
         allow = {
-            NOT = {has_country_flag = java_integrated}
             NOT = { accepted_culture = javanese }
 			nationalism_n_imperialism = 1
 			war = no
+			year = 1870
         }
 
         effect = {

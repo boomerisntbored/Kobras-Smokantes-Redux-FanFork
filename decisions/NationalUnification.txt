@@ -540,6 +540,7 @@ political_decisions = {
 	form_bnf  = {
         picture = bel_lion
         potential = {
+		    NOT = {has_country_flag = java_integrated}
             OR = {                
                 tag = BEL
                 tag = NET
