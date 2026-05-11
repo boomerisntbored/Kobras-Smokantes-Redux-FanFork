@@ -99,4 +99,25 @@ political_decisions = {
 			}
 		}
 	}
+	
+	dutch_accept_javanese = {
+        potential = {
+            tag = NET
+            exists = NET
+        }
+
+        allow = {
+            NOT = {has_country_flag = java_integrated}
+            NOT = { accepted_culture = javanese }
+			nationalism_n_imperialism = 1
+			war = no
+        }
+
+        effect = {
+            add_accepted_culture = javanese
+			set_country_flag = java_integrated
+
+            prestige = 20
+        }
+    }
 }
