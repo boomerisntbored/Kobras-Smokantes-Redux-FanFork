@@ -1,5 +1,5 @@
-owner = TIB
-controller = TIB
+owner = MGL
+controller = MGL
 add_core = TIB
 add_core = CHI
 trade_goods = cattle
