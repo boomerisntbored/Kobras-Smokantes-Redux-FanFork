@@ -351,4 +351,4 @@ claim_our_seas = {
       set_country_flag = march_west
     SOK = { all_core = { secede_province = SOK}}
 }
-}
+}}

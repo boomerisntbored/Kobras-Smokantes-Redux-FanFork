@@ -16,3 +16,4 @@ switch_to_equality_desc;It is time for our nation to change the character of our
 switch_to_liberty_title;Embrace the Ideal of Liberty;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of liberty and personal freedom above all else.\n§RSWITCHING NATIONAL VALUE CAN ONLY BE DONE ONCE PER GAME\n§YThe modifiers for this NV are:§W\n§GPolitical Reform Desire: +25%\nCommerce Tech Research Bonus: 5%\nImmigrant Attraction Bonus: 20%\nMobilization Size: +1.0%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 nv_diplomacy;Diplomacy;x
+nv_productivity;Productivity;x;x;;x

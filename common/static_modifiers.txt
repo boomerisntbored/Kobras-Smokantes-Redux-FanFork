@@ -15,9 +15,10 @@
 
 mali_restoration_boost = {
     RGO_output = 0.1
-	mobilisation_size = 0.3
-	mobilisation_economy_impact = 0.3
+	mobilisation_size = 1
+	mobilisation_economy_impact = 0.9
 	land_organisation = 0.05
+	education_efficiency_modifier = 0.3
 	icon = 17
 	}
 
