@@ -18,7 +18,7 @@ artillery = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		artillery = 50
+		artillery = 30
 		canned_food = 15
 		regular_clothes = 5
 		
