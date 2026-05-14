@@ -1,0 +1,23 @@
+country_event = {
+    id = 909099
+    title = "Pedro Coelho"
+    desc = "Pedro em uma viagem chines trouxe consigo uma doenca que afeta apenas coelhos chineses mongolianos, transformando em coelhos gigantes com altura comparada a de um cavalo adulto"
+    picture = "military_parade" 
+
+    # Trigger restricts the event to your country tag
+    trigger = {
+        tag = MGL 
+        not = { has_country_flag = unique_unit_activated }
+    }
+
+    # Mean Time to Happen: Controls how fast the event fires after game start
+    mean_time_to_happen = {
+        days = 1 
+    }
+
+    option = {
+        name = "Coelho mongolianos a solta!"
+        set_country_flag = unique_unit_activated
+        activate_unit = chinese_bunny 
+    }
+}

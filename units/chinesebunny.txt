@@ -41,4 +41,4 @@ chinese_bunny = {
 	maneuver = 4
 	
 }
-# 26 y 27x
+# 26 y 27x Pedro em uma viagem chines trouxe consigo uma doenca que afeta apenas coelhos chineses mongolianos, transformando em coelhos gigantes com altura comparada a de um cavalo adulto

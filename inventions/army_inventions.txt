@@ -673,6 +673,13 @@ flintlock_rifle_armament = {
 		}
 	}
 }
+#chinese bunny
+chinese_bunny = {
+limit = {post_napoleonic_thought = 1}
+chance = { base = 0
+}
+effect = { activate_unit = chinese_bunny }
+}
 
 #muzzle_loaded_rifles
 muzzle_loaded_rifle_armament = {

@@ -45,6 +45,8 @@ upper_house = {
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 1
+post_napoleonic_thought = 1
+chinese_bunny = 1
 
 1861.1.1 = {
 	oob = "/1861/MGL_oob.txt"
