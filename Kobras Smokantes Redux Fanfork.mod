@@ -1,0 +1,5 @@
+name = "Kobras Smokantes Redux Fanfork"
+path = "mod/Kobras-Smokantes-Redux-Fanfork"
+user_dir = "Kobras-Smokantes-Redux-Fanfork"
+replace_path = "movies"
+replace_path = "history"
