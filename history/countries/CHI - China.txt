@@ -21,7 +21,7 @@ upper_house = {
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-post_napoleonic_thought = 1
+
 oob = "CHI_oob.txt"
 
 slavery = no_slavery

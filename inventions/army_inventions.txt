@@ -675,7 +675,9 @@ flintlock_rifle_armament = {
 }
 #chinese bunny
 chinese_bunny = {
-limit = {post_napoleonic_thought = 1}
+
+limit = {tag = MGL
+         }
 chance = { base = 0
 }
 effect = { activate_unit = chinese_bunny }

@@ -1,0 +1,87 @@
+country_event = {
+id = 676742
+title = "O Egito ta bolado"
+desc = "its over baby"
+trigger = {
+		tag = TUR
+		year = 1839
+		NOT = {has_country_flag = ottomanos_War}
+		}
+	mean_time_to_happen =  {
+		days = 1
+        }
+		option = {
+		name = "Cai pro pau"
+		war = {
+	target = EGY
+	attacker_goal = { casus_belli = make_puppet }
+	defender_goal = { casus_belli = humiliate }
+	call_ally = no
+	
+}
+     set_country_flag = ottomanos_War		
+
+
+
+
+
+
+
+
+
+}}
+country_event = {
+	id = 424242
+	title = "Uau Parabens"
+	desc = "voce merece"
+	picture = "Signing_Treaty"
+	trigger = {
+		tag = TUR
+		exists = EGY
+		EGY = { vassal_of = TUR }
+		NOT = {has_country_flag = ottomanos_War1}
+	}
+	mean_time_to_happen =  {
+		days = 1
+        }
+	option = {
+		name = "Estabelecer controle formal"
+		ai_chance = { factor = 80 }
+		TUR = { prestige = 15 }
+		TUR = { all_core = {
+			secede_province = TUR
+			}}
+			set_country_flag = ottomanos_War1		
+	}
+
+	
+}
+	
+country_event = {
+	id = 424267
+	title = "Socorro"
+	desc = "serio me ajuda"
+	picture = "Signing_Treaty"
+	trigger = {
+		tag = TUR
+		exists = EGY
+		EGY = { vassal_of = TUR }
+		year = 1860
+		NOT = {has_country_flag = ottomanos_War2}
+	}
+	mean_time_to_happen =  {
+		days = 1
+        }
+	option = {
+		name = "Finalmente porra"
+		ai_chance = { factor = 80 }
+		TUR = { prestige = 15 }
+		EGY = { all_core = {
+			secede_province = TUR
+			}}
+			set_country_flag = ottomanos_War2		
+	}
+
+	
+}	
+	
