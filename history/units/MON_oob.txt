@@ -6,7 +6,7 @@ army = {
 		type = land
 		date="1830.1.1"
 		personality = au_fait
-		background = poet
+		background = attack_0.10
 		prestige = 0.2
 	}
 

@@ -5,8 +5,8 @@ army = {
 		name = "Wilhelm Albrecht"
 		date = 1836.1.1
 		type = land
-		personality = indifferent
-		background = uncommonly_young
+		personality = defence_0.10
+		background = attack_0.10
 		prestige = 0.5
 	}
 	

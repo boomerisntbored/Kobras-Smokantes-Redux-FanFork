@@ -26,7 +26,7 @@ foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
 land_reform = yes_land_reform
 finance_reform = yes_finance_reform
-finance_reform = finance_reform_two #International Debt
+
 
 # Technology
 flintlock_rifles = 1

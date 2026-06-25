@@ -73,7 +73,7 @@ political_decisions = {
 		   has_country_modifier = assimilation_azt
 		   }
 		  }
-		  effect {
+		  effect = {
 		   add_country_modifier = {
 			      name = "assimilation_azt"
 				  duration = 1825
@@ -95,7 +95,7 @@ political_decisions = {
 		has_country_modifier = assimilation_azt
 		}
 		}
-		effect {
+		effect = {
 		add_country_modifier = {
 			      name = "assimilation_azt"
 				  duration = 1825
