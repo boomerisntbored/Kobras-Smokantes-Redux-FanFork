@@ -2,7 +2,7 @@ manowar = {
 	icon = 4
 	naval_icon = 1
 	
-	sail = yes
+	
 	
 	type = naval
 	sprite = Manowar

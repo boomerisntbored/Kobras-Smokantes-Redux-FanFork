@@ -120,7 +120,7 @@ reactionary_rebels = {
 		}
 		modifier = {
 			factor = 1.0105
-			AND = {
+			
 				pop_majority_ideology = conservative
 				NOT = {
 					country = {
@@ -128,7 +128,7 @@ reactionary_rebels = {
 						has_country_modifier = springtime_of_nations	
 					}
 				}
-			}
+			
 		}
 		modifier = {
 			factor = 0

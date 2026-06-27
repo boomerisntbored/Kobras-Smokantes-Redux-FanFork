@@ -165,7 +165,6 @@ tut_1b_19;For now we are manually going to assign our General, go ahead and sele
 TOPBAR_DEC_SPEED;Decrease Speed;Réduire la vitesse;Geschwindigkeit reduzieren;;Disminuir velocidad;;;;;;;;;x;
 fort;Fort;Fort;Fort;;Fuerte;;;;;;;;;x;
 fort_short;Fort;fort;Fort;;Fuerte;;;;;;;;;x;
-TOPBAR_DEC_SPEED;Decrease Speed;Réduire la vitesse;Geschwindigkeit reduzieren;;Disminuir velocidad;;;;;;;;;x;
 IS_GREAT_NATION;Is Great Power;Est une Grande Puissance;Ist Großmacht;;Es una gran potencia;;;;;;;;;x;
 NO_DEMOTION;There will be no demotions this month.;Il n'y aura aucune rétrogradation ce mois-ci.;Diesen Monat gibt es keine Degradierungen.;;Este mes no habrá degradaciones.;;;;;;;;;x;
 NO_PROMOTION;There will be no promotions this month.;Il n'y aura aucune promotion ce mois-ci.;Diesen Monat gibt es keine Beförderungen.;;Este mes no habrá ascensos.;;;;;;;;;x;
@@ -232,7 +231,6 @@ TOPBAR_DIPLOPOINTS_GAIN;We gain §Y$VALUE$§W diplomatic points each month;Nous ga
 TOPBAR_DIPLOPOINTS_BASEGAIN;Base gain: §Y$VALUE$§W diplomatic points;Gain de base : §Y$VALUE$§W points de diplomatie.;Basis-Zugewinn: §Y$VALUE$§W Diplomatiepunkte.;;Ganancia base: §Y$VALUE$§W puntos de diplomacia;;;;;;;;;x;
 MOBILISE;Mobilize;Mobiliser;Mobilisieren;;Movilizar;;;;;;;;;x;
 DEMOBILISE;Demobilize;Démobiliser;Demobilisieren;;Licenciar;;;;;;;;;x;
-BE_INVENT;Inventions:;Inventions :;Erfindungen:;;Inventos:;;;;;;;;;x;
 THE_WORLD_IN;The World in $YEAR$;Le monde en $YEAR$;Die Welt des Jahres $YEAR$;;El mundo en $YEAR$;;;;;;;;;x;
 TECHNOLOGY_ACTIVATION_YEAR;Activation year:;An. d'activation :;Aktivierungsjahr:;;Año activación:;;;;;;;;;x;
 TECHNOLOGY_RESEARCH_POINTS;Research points:;Pts de recherche :;Forschungspunkte:;;Ptos. investigación:;;;;;;;;;x;
@@ -244,7 +242,7 @@ BUDGET_EXPORTS;National Stockpile Sales: §Y$VAL$§W;Ventes des réserves nationale
 BUDGET_IMPORTS;National Stockpile Purchases: §Y$VAL$§W;Achats des réserves nationales : §Y$VAL$¤§W;Käufe für Nationalvorrat: §Y$VAL$§W;;Compras de la reserva nacional: §Y$VAL$§W;;;;;;;;;x;
 bad_debter;Bad debter;Mauvais payeur;Schlechter Schuldner;;Mal pagador;;;;;;;;;x;
 bad_debter_desc;Due to your countrys history of flaky economy banks will demand a higher interest on your loans;Compte tenu des antécédents économiques de votre pays, les banques vous proposeront des emprunts aux taux d'intérêt élevés.;Aufgrund der traditionell unzuverlässigen Wirtschaft Ihres Landes werden Banken für ihre Darlehen künftig mehr Zinsen verlangen.;;Debido al historial de economía poco fiable de tu país, los bancos aplicarán a tus préstamos un interés más elevado.;;;;;;;;;x;
-MUST_NEGOTIATE_WITH_WAR_LEADER;We must negotiate with the enemy §YWar leader§W if we are not leading our war;À défaut de dominer la guerre que nous menons, nous devons négocier avec le §Ymeneur de guerre§W ennemi.;Wenn wir den Krieg nicht anführen, müssen wir mit dem feindlichen §YKriegsführer§W verhandeln.;;Si no progresamos en nuestra guerra, tenemos que negociar con el §Líder de la guerra§Y enemigo;;;;;;;;;x;
+MUST_NEGOTIATE_WITH_WAR_LEADER;We must negotiate with the enemy  if we are not leading our war;;;;;;;;;;x;
 BAD_ADJ;Baden;Bade;Baden;;Baden;;;;;;;;;x;
 WAR_LEADER;§YWar leader§W;§Ymeneur de guerre§W;§YKriegsführer§W;;§YLíder de la guerra§W;;;;;;;;;x;
 MUST_NEGOTIATE_WITH_WAR_LEADER_NO_LEFTOVER_WARGOALS;We must negotiate with the enemy §YWar leader§W since making peace with §Y$COUNTRY$§W would end the war;Nous devons négocier avec le §Ymeneur de guerre§W ennemi, car un accord de paix avec §Y$COUNTRY$§W mettrait fin à la guerre.;Wir müssen mit dem feindlichen §YKriegsführer§W verhandeln, da ein Friedensschluss mit §Y$COUNTRY$§W den Krieg beenden würde.;;Tenemos que negociar con el §YLíder de la guerra§W enemigo, ya que firmar la paz con §Y$COUNTRY$§W pondría fin a la guerra;;;;;;;;;x<;

@@ -184,7 +184,6 @@ CRISIS_DESCRIPTION_RECLAIM;Crisis over the return of $COUNTRY$'s rightful territ
 CRISIS_ALREADY_TAKEN_SIDE;Already chosen a side;;Bereits eine Seite gewählt;;;;;;;;;;;x;
 CRISIS_WAITING_ON_BACKER;Waiting on Great Power Backer;;Wartet auf die Unterstützung der Großmacht;;;;;;;;;;;x;
 MUST_BE_CRISIS_SIDE_LEADER;Must be leader of a side in the crisis;;Muss ein Anführer einer Seite in dem Konflikt sein;;;;;;;;;;;x;
-CRISIS_ALREADY_TAKEN_SIDE;Already taken side;;Bereits auf eine Seite geschlagen;;;;;;;;;;;x;
 CRISIS_OFFERTITLE;Make Offer;;Macht ein Angebot;;;;;;;;;;;x;
 CRISIS_OFFER_OFFER;$ACTOR$ offer §Y$WARGOAL$§! to join their side in the current crisis.;;$ACTOR$ bietet §Y$WARGOAL$§!, um sich ihrer Seite in dem momentanen Konflikt anzuschließen.;;;;;;;;;;;x;
 CRISIS_OFFER_WE_ACCEPT_SETUP;When we accept joining a side of a crisis;;Wenn wir zustimmen, uns in einem Konflikt einer Seite anzuschließen;;;;;;;;;;;x;
@@ -452,7 +451,7 @@ UNCOLONIZED_DO_INVEST_LVL5;Reinforce guard post;;Wachposten verstärken;;;;;;;;;;
 #TENSION_DECAY;Decay: §Y$VAL$§!;;Zerfall: §Y$VAL$§!;;;;;;;;;;;x;
 CB_TENSION;War Justification: §Y$VAL$§!;Casus Belli: §Y$VAL$§!;Kriegsrechtfertigung: §Y$VAL$§!;;;;;;;;;;;x;
 TENSION_FROM_ACTIVE_CRISIS;Active Crisis: §Y$VAL$§!;;Aktive Konflikte: §Y$VAL$§!;;;;;;;;;;;x;
-AT_WAR_TENSION_DECAY;$COUNTRY$ is at war: §Y$VAL$§;;$COUNTRY$ befindet sich im Krieg: §Y$VAL$§;;;;;;;;;;;x;
+AT_WAR_TENSION_DECAY;COUNTRY is at war: VAL;;COUNTRY befindet sich im Krieg: VAL;;;;;;;;;;;x;
 TRIGGER_FLASHPOINT_TAG;Flashpoint attacker;;Unruheherd-Angreifer;;;;;;;;;;;x;
 CRISIS_NO_SIDE_PICKED_SETUP;When we have avoided backing one of the sides of the crisis;;Wenn wir es vermieden haben, eine der Seiten in einem Konflikt zu unterstützen;;;;;;;;;;;x;
 CRISIS_NO_SIDE_PICKED_HEADER;*;*;*;;*;;;;;;;;;x;

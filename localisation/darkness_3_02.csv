@@ -15,8 +15,8 @@ PRODUCTION_BONUS_POSSIBLE;Possible bonus from:;;Mögliche Boni durch:;;;;;;;;x
 COLONIZE_PHASE_INITIAL_INTEREST;Send expedition;;Expedition entsenden;;;;;;;;x
 COLONIZE_PHASE_INITIAL_INTEREST_DESC;The first step of influencing an area is to send an expedition. If it is not challenged in §Y$DAYS$§! days it will allow you to create a protectorate;;Der erste Schritt um Einfluss in einer Region zu erlangen ist das Entsenden einer Expedition. Falls keine andere Nation innerhalb von §Y$DAYS$§! Tagen ebenfalls Interesse anmeldet, können wir sofort ein Protektorat errichten.;;;;;;;;x
 INITIAL_COLONIZE_DEFAULT_TIME;If nobody competes with your expedition by §Y$DATE$§! you can skip directly to creating a protectorate;;Wenn keine andere Nation bis zum §Y$DATE$§! mit unserer Expedition konkurriert, können wir sofort ein Protektorat errichten.;;;;;;;;x
-COUNTRYALERT_ColonialGood_protectorate;§GWe can create a protectorate in §!§Y$REGION$§!;;§GWir können ein Protektorat in §!§Y$REGION$§ errichten!;;;;;;;;x
-COUNTRYALERT_ColonialGood_colony;§GWe can create a colony in §!§Y$REGION$§!;;§GWir können eine Kolonie in §!§Y$REGION$§ errichten!;;;;;;;;x
+COUNTRYALERT_ColonialGood_protectorate;We can create a protectorate in REGION;;Wir können ein Protektorat in REGION errichten!;;;;;;;;x
+COUNTRYALERT_ColonialGood_colony;We can create a colony in REGION!;;Wir können eine Kolonie in REGION errichten!;;;;;;;;x
 COUNTRYALERT_ColonialGood_state;§GWe can create a state in §!§Y$REGION$§!;;§GWir können einen Nationalstaat §!§Y$REGION$§! Gründen!;;;;;;;;x
 COUNTRYALERT_ColonialBad_colonizationtimer;§RWe need to create a protectorate in §!§Y$REGION$§!§R before §Y$DATE$§!§R or lose it.§!;;§RWir müssen ein Protektorat in §!§Y$REGION$§!§R vor dem §Y$DATE$§!§R errichten oder wir werden diese Region verlieren.§!;;;;;;;;x
 COUNTRYALERT_ColonialBad_influence;§RWe are losing the race in §!§Y$REGION$§!;;§RWir verlieren den Wettlauf um §!§Y$REGION$§!;;;;;;;;x
