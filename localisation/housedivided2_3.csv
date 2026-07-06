@@ -8,7 +8,7 @@ GW_DISCOVERED_1;Great Wars discovered!;Découverte des Grandes Guerres !;Große Kr
 GW_DISCOVERED_2;From now, each war that includes;Désormais, toute guerre impliquant;Von nun an, wird jeder Krieg, bei dem;;;;;;;;;;;x
 GW_DISCOVERED_3;at least two great countries;au moins deux grandes Nations;mindestens 2 Großmächte;;;;;;;;;;;x
 GW_DISCOVERED_4;on each side, will get the status of;de chaque côté, obtient le statut de;sich auf jeder Seite befinden, den Status eines;;;;;;;;;;;x
-GW_DISCOVERED_5;§YThe Great War§!.;§YGrande Guerre§!.;§YGroßen Krieges§ haben!.;;;;;;;;;;;x
+GW_DISCOVERED_5;§YThe Great War§!.;§YGrande Guerre§!.;§YGroßen Krieges§! haben!.;;;;;;;;;;;x
 GW_DISCOVERED_6;*;*;*;;;;;;;;;;;x
 GW_DISCOVERED_BTN1;OK;D'accord;OK;;;;;;;;;;;x
 GW_DISCOVERED_BTN2;OK;D'accord;OK;;;;;;;;;;;x
@@ -39,7 +39,7 @@ WAR_LOST_GW_STATUS_BTN2;OK;D'accord;OK;;;;;;;;;;;x
 WAR_LOST_GW_STATUS_BTN3;Go to;Voir;Gehe zu;;;;;;;;;;;x
 WAR_LOST_GW_STATUS_LOG;$WAR$ is no longer §YThe Great War§!;$WAR$ n'est plus une §YGrande Guerre§!.;$WAR$ ist kein §YGroßer Krieg mehr§!;;;;;;;;;;;x
 GW_INTERVENE_MIN_RELATIONS;Our relations with §Y$TARGET$§! must be at least §G$MIN$§!. Currently it is §Y$VAL$§!.;Nos relations avec §Y$TARGET$§! doivent être d'au moins §G$MIN$§!. Actuellement elles sont de §Y$VAL$§!.;Unsere Beziehungen mit §Y$TARGET$§! muss zumindest §G$MIN$§! betragen. Gegenwärtig liegt sie bei §Y$VAL$§!.;;;;;;;;;;;x
-GW_INTERVENE_MAX_EXHAUSTION;Our war exhaustion cannot be greater than §G$MAX$§!. Currently it is §Y$VAL$§!.;Notre lassitude de guerre ne doit pas être supérieure à §G$MAX$§. Actuellement elle est de §Y$VAL$§!.;Unsere Kriegsermüdung darf nicht höher als §G$MAX$§! sein. Gegenwärtig liegt diese bei §Y$VAL$§!.;;;;;;;;;;;x
+GW_INTERVENE_MAX_EXHAUSTION;Our war exhaustion cannot be greater than §G$MAX$§!. Currently it is §Y$VAL$§!.;Notre lassitude de guerre ne doit pas être supérieure à §G$MAX$§!. Actuellement elle est de §Y$VAL$§!.;Unsere Kriegsermüdung darf nicht höher als §G$MAX$§! sein. Gegenwärtig liegt diese bei §Y$VAL$§!.;;;;;;;;;;;x
 great_war_penalty_cb;Great War Capitulation;Capitulation dans une Grande Guerre;Großkriegskapitulation;;;;;;;;;;;x
 great_war_penalty_cb_desc;Force another §Ycountry§! to disarm and pay reparations to us.;Contraindre un autre §Ypays§! à désarmer et à nous payer des réparations.;Zwingt die andere §YNation§! zur Entwaffnung und der Zahlung von Kriegsreperationen an uns.;;;;;;;;;;;x
 great_war_penalty_cb_setup;Disarm $RECIPIENT$ and let them pay for reparations.;Désarmer $RECIPIENT$ et le faire payer des réparations.;Entwaffnet $RECIPIENT$ and zwingt sie zur Zahlung von Kriegsreperationen;;;;;;;;;;;x

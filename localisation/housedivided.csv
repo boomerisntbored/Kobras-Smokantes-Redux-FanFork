@@ -3,7 +3,7 @@ MIL_FROM_CAP_SHIPS;Capital Ships;Navires;Großkampfschiff;;;;;;;;x;;;
 MIL_FROM_LEADERS;Leaders;Dirigeants;Anführer;;;;;;;;x;;;
 OCCUPATION_SCORE;Occupation: ;Occupation : ;Besetzung:;;;;;;;;x;;;
 BLOCKADE_SCORE;Blockade: ;Blocus : ;Blockade:;;;;;;;;x;;;
-OUTLINER_TOOLTIP_EMPLOYED;§Y$COUNT$§! Employed in factories (§Y$PERC$§!%);§Y$COUNT$§ Employés en usines (§Y$PERC$§! %);§Y$COUNT$§! in (§Y$PERC$§!%) Fabriken eingestellt;;;;;;;;x;;;
+OUTLINER_TOOLTIP_EMPLOYED;§Y$COUNT$§! Employed in factories (§Y$PERC$§!%);§Y$COUNT$§ Employés en usines (§Y$PERC$§!%);§Y$COUNT$§! in (§Y$PERC$§!%) Fabriken eingestellt;;;;;;;;x;;;
 TRADE_SUPPLY_NEED_A;$VAL$ to supply army each day.\n;$VAL$ à fournir à l'armée chaque jour.\n;$VAL$ zur täglichen Versorgung der Armee.\n;;;;;;;;x;;;
 TRADE_SUPPLY_NEED_N;$VAL$ to supply navy each day.\n;$VAL$ à fournir à la marine chaque jour.\n;$VAL$ zur täglichen Versorgung der Marine.\n;;;;;;;;x;;;
 DIPLOMACY_CANNOT_SET_PRIO_WAR;We cannot influence this nation while we have a war with them.;Nous ne pouvons pas influencer cette nation tant que nous sommes en guerre contre elle.;Wir können diese Nation nicht beeinflussen, während wir einen Krieg gegen sie führen.;;;;;;;;x;;;
@@ -22,8 +22,8 @@ COLONY_ABORT_MAP;Colony Aborted!;Colonie abandonnée !;Kolonie abgebrochen!;;;;;;
 COLONY_ABORT_SETUP;When colonization is aborted.;Quand la colonisation est abandonnée.;Wenn die Kolonisierung abgebrochen wird.;;;;;;;;x;;;
 COLONY_ABORT_LOG;Colonization of $TARGET$ has been aborted.;la colonisation de $TARGET$ a été abandonnée.;Kolonisierung von $TARGET$ wurde abgebrochen.;;;;;;;;x;;;
 DIPRELCH_VALID_CB;Valid Casus Belli;Casus Belli valide;Gültiger Kriegsgrund;;;;;;;;x;;;
-BRIGADES_COMPARE_GREATER;Brigades comparison factor of two countries is at least §Y$VAL$§!;Le facteur de comparaison des brigades des deux pays est d'au moins §Y$VAL$§ !;Der Vergleichswert der Brigaden zweier Länder beträgt mindestens §Y$VAL$§!;;;;;;;;x;;;
-BRIGADES_COMPARE_SMALLER;Brigades comparison factor of two countries is less than §Y$VAL$§!;Le facteur de comparaison des brigades des deux pays est inférieur à §Y$VAL$§ !;Der Vergleichswert der Brigaden zweier Länder beträgt weniger als §Y$VAL$§!;;;;;;;;x;;;
+BRIGADES_COMPARE_GREATER;Brigades comparison factor of two countries is at least §Y$VAL$§!;Le facteur de comparaison des brigades des deux pays est d'au moins §Y$VAL$§!;Der Vergleichswert der Brigaden zweier Länder beträgt mindestens §Y$VAL$§!;;;;;;;;x;;;
+BRIGADES_COMPARE_SMALLER;Brigades comparison factor of two countries is less than §Y$VAL$§!;Le facteur de comparaison des brigades des deux pays est inférieur à §Y$VAL$§!;Der Vergleichswert der Brigaden zweier Länder beträgt weniger als §Y$VAL$§!;;;;;;;;x;;;
 CONFIRM_CREATE_STATE_DESC2;(All local effects will be removed.);(Tous les effets locaux seront supprimés.);(Alle lokalen Effekte werden entfernt.);;;;;;;;x;;;
 UNIT_ENABLE_REBEL_HUNT;Hunt Rebels;Chasse aux rebelles;Jagt Rebellen;Cazar rebeldes;;;;;;;;;;x
 UNIT_DISABLE_REBEL_HUNT;(hunting rebels);(chasse des rebelles);(Rebellen jagen);(cazando rebeldes);;;;;;;;;;x
@@ -285,7 +285,7 @@ make_puppet;Make puppet;Créer un pays satellite;Erschafft eine Marionette;;;;;;;
 make_puppet_short;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
 make_puppet_setup;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
 make_puppet_desc;Become a puppet;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
-RALLY_POINT_INFO;If you enable the §Yrally point§! in this province, then all nearest units will head this way when recruiting is done.\n(See recruitment map mode for more details.);Si vous activez le §Ypoint de ralliement§! dans cette province, toutes les unités proches s'y rendront dès qu'elles seront recrutées.\n(Voir la carte de recrutement pour plus de détails);Falls Ihr den §Sammelpunkt§! In dieser Provinz aktiviert, werden sich alle Einheiten aus der Umgebung hierher bewegen, sobald die Rekrutierung abgeschlossen ist.\n(Weitere Details findest du im Rekrutierungs-Kartenmodus.);;;;;;;;;;;x
+RALLY_POINT_INFO;If you enable the §Yrally point§! in this province, then all nearest units will head this way when recruiting is done.\n(See recruitment map mode for more details.);Si vous activez le §Ypoint de ralliement§! dans cette province, toutes les unités proches s'y rendront dès qu'elles seront recrutées.\n(Voir la carte de recrutement pour plus de détails);Falls Ihr den §YSammelpunkt§! In dieser Provinz aktiviert, werden sich alle Einheiten aus der Umgebung hierher bewegen, sobald die Rekrutierung abgeschlossen ist.\n(Weitere Details findest du im Rekrutierungs-Kartenmodus.);;;;;;;;;;;x
 RALLY_POINT_ENABLE_INFO;Enable or Disable this province as a rally point.;Activer ou désactiver le point de ralliement de cette province.;Aktiviert oder Deaktiviert diese Provinz als Versammlungspunkt.;;;;;;;;;;;x
 RALLY_POINT_MERGE_INFO;Enable or Disable units merging at destination.\n(Armies will merge up to the local supply limit.);Activer ou désactiver la fusion des unités à destination.\n(Les armées fusionneront jusqu'à la limite de ravitaillement locale);Aktiviert oder Deaktiviert Einheiten, die an dieser Stelle zusammengeführt werden.\n(Armeen kommen bis zum lokalen Vorratslimit zusammen.);;;;;;;;;;;x
 RALLY_POINT_PROVINCE_INFO;$PROV$ is a §Yrally point§!;$PROV$ est un §Ypoint de ralliement§!;$PROV$ ist ein §YSammelpunkt§!;;;;;;;;;;;x
@@ -365,7 +365,7 @@ CB_TOWARDS_US_DETECTED_SETUP;A war justification process against us is detected;
 CB_TOWARDS_US_DETECTED_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
 CB_TOWARDS_US_DETECTED_1;War Justification;Justification de guerre;Kriegsrechtfertigung;;;;;;;;;;;x
 CB_TOWARDS_US_DETECTED_2;An attempt to justify war using;Une tentative de justifier une guerre par le;Ein Versuch, den Krieg zu rechtfertigen, ;;;;;;;;;;;x
-CB_TOWARDS_US_DETECTED_3;§Y$CASUS$§! Casus Belli;Casus Belli §Y$CASUS$§;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_3;§Y$CASUS$§! Casus Belli;Casus Belli §Y$CASUS$§!;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
 CB_TOWARDS_US_DETECTED_4;against us by;contre nous par;gegen uns, durch;;;;;;;;;;;x
 CB_TOWARDS_US_DETECTED_5;$COUNTRY$;$COUNTRY$;$COUNTRY$;;$COUNTRY$;;;;;;;;;x
 CB_TOWARDS_US_DETECTED_6;was detected!;a été détectée !;wurde entlarvt! ;;;;;;;;;;;x
@@ -378,7 +378,7 @@ OTHERS_CB_DETECTED_SETUP;A war justification process against someone is detected
 OTHERS_CB_DETECTED_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
 OTHERS_CB_DETECTED_1;War Justification;Justification de guerre;Kriegsrechtfertigung;;;;;;;;;;;x
 OTHERS_CB_DETECTED_2;An attempt to justify war using;Une tentative de justifier une guerre par le;Ein Versuch, den Krieg zu rechtfertigen, ;;;;;;;;;;;x
-OTHERS_CB_DETECTED_3;§Y$CASUS$§! Casus Belli;Casus Belli §Y$CASUS$§;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
+OTHERS_CB_DETECTED_3;§Y$CASUS$§! Casus Belli;Casus Belli §Y$CASUS$§!;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
 OTHERS_CB_DETECTED_4;against $TARGET$ by;contre $TARGET$ par;gegen $TARGET$, durch;;;;;;;;;;;x
 OTHERS_CB_DETECTED_5;$COUNTRY$;$COUNTRY$;$COUNTRY$;;$COUNTRY$;;;;;;;;;x
 OTHERS_CB_DETECTED_6;was detected!;a été détectée !;wurde entlarvt! ;;;;;;;;;;;x
@@ -455,9 +455,9 @@ EVTDESC90103;Despite our promise to allow public meetings, nothing has changed a
 EVTOPTA90103;I hate crowds;Je déteste les foules;Ich hasse Menschenmengen;;;;;;;;;;;x
 EVTDESC90105;Despite our promise to allow trade unions, nothing has changed and the people are somewhat upset.;En dépit de notre promesse de permettre l'existence des syndicats, rien n'a changé et les gens sont quelque peu déçus;Trotz unseres Versprechens, Handelsgewerkschaften zu erlauben, hat sich nichts verändert und die Bevölkerung ist ein wenig aufgebracht.;;;;;;;;;;;x
 EVTOPTA90105;Better dead than red!;Mieux vaut morts que rouges !;Besser tot als rot!;;;;;;;;;;;x
-MOVEMENT_RADICALISM_BASE;Base: §R$VAL$§%§!;Base: §R$VAL$§ %§!;Basis: §R$VAL$§%§!;;;;;;;;;;;x
-MOVEMENT_RADICALISM_ACCUMULATED;Suppression: §R$VAL$§%§!;Répression : §R$VAL$§ %§!;Unterdrückung: §R$VAL$§%§!;;;;;;;;;;;x
-MOVEMENT_RADICALISM_GRANTED_REFORMS;Granted reforms: §G$VAL$§%§!;Réformes accordées : §G$VAL$§ %§!;Gewährte Reformen: §G$VAL$§%§!;;;;;;;;;;;x
+MOVEMENT_RADICALISM_BASE;Base: §R$VAL$§!%;Base: §R$VAL$§!%;Basis: §R$VAL$§!%;;;;;;;;;;;x
+MOVEMENT_RADICALISM_ACCUMULATED;Suppression: §R$VAL$§!%;Répression : §R$VAL$§!%;Unterdrückung: §R$VAL$§!%;;;;;;;;;;;x
+MOVEMENT_RADICALISM_GRANTED_REFORMS;Granted reforms: §G$VAL$§!%;Réformes accordées : §G$VAL$§!%;Gewährte Reformen: §G$VAL$§!%;;;;;;;;;;;x
 MOVEMENT_RADICALISM_CULTURE;$CULTURE$: $VAL$;$CULTURE$: $VAL$;$CULTURE$: $VAL$;;;;;;;;;;;x
 ALREADY_SUPPRESSED;Movement is not radical and can't be suppressed;Ce mouvement n'est pas radical et ne peut être réprimé;Die Bewegung ist nicht radikal und kann nicht unterdrückt werden;;;;;;;;;;;x
 EVTNAME90900;The Middle Kingdom;L'empire du Milieu;Das Königreich der Mitte;;;;;;;;;;;x
