@@ -1,6 +1,6 @@
-owner = MGL
-controller = MGL
-add_core = MGL
+owner = TTK
+controller = TTK
+add_core = TTK
 add_core = CHI
 add_core = RUS
 trade_goods = coal

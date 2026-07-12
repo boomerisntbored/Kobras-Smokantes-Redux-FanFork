@@ -72,6 +72,8 @@ WLL		= "countries/Wallonia.txt"
 # Kobras Larp
 
 AZT		= "countries/Aztec Empire.txt"
+TBS     = "countries/The bunny State.txt"
+TTK     = "countries/The Tributary Kingdoms.txt"
 
 # Germany
 ANH		= "countries/Anhalt.txt"

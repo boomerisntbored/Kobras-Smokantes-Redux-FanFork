@@ -1,5 +1,5 @@
-owner = MGL
-controller = MGL
+owner = TTK
+controller = TTK
 add_core = YNN
 add_core = CHI
 trade_goods = tea

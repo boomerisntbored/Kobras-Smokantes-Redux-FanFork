@@ -1,8 +1,8 @@
-owner = MGL
-controller = MGL
+owner = TTK
+controller = TTK
 add_core = CHI
 add_core = XIN
-add_core = MGL
+add_core = TTK
 trade_goods = cotton
 life_rating = 30
 
