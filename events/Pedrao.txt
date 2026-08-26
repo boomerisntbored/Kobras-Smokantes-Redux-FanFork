@@ -1,0 +1,19 @@
+country_event = {
+    id = 909099
+    title = "Pedro Coelho"
+    desc = "Meus deus, Coelhos..."
+    picture = "military_parade" 
+    trigger = {
+        tag = TBS
+        not = { has_country_flag = unique_unit_activated }
+    }
+
+    mean_time_to_happen = {
+        days = 1 
+    }
+
+    option = {
+        name = "Coelho mongolianos a solta!"
+        set_country_flag = unique_unit_activated
+        activate_technology = pedro_coelho
+    }}

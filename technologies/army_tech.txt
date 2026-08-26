@@ -1,3 +1,15 @@
+#Chinese bunny 
+pedro_coelho = {
+year = 4000
+cost = 8000
+unciv_military = yes
+activate_unit = chinese_bunny
+}
+
+
+
+
+
 #army_doctrine
 post_napoleonic_thought = {
 	area = army_doctrine

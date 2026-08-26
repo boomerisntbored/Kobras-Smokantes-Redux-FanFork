@@ -45,8 +45,6 @@ upper_house = {
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 1
-
-
 1861.1.1 = {
 	oob = "/1861/MGL_oob.txt"
 	literacy = 0.04

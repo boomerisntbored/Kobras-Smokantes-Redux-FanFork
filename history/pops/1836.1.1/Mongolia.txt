@@ -5,73 +5,73 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 1850
+        size = 2775
     }
 
     bureaucrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 75
+        size = 112
     }
 
     officers = {
         culture = nanfaren
         religion = gelugpa
-        size = 325
+        size = 488
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 4000
+        size = 6000
     }
 
     artisans = {
+        culture = nanfaren
+        religion = gelugpa
+        size = 6750
+    }
+
+    soldiers = {
         culture = nanfaren
         religion = gelugpa
         size = 4500
     }
 
-    soldiers = {
-        culture = nanfaren
-        religion = gelugpa
-        size = 900
-    }
-
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 84350
+        size = 126525
     }
 
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 125
+        size = 188
     }
 
     clergymen = {
         culture = nanfaren
         religion = mahayana
-        size = 75
+        size = 112
     }
 
     artisans = {
         culture = nanfaren
         religion = mahayana
-        size = 400
+        size = 600
     }
 
     soldiers = {
         culture = nanfaren
         religion = mahayana
-        size = 100
+        size = 500
     }
 
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 3300
+        size = 4950
     }
 }
 #Dalandzadgad (212000/53000 POPS)
@@ -79,31 +79,31 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 1050
+        size = 1575
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 550
+        size = 825
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 2650
+        size = 3975
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 550
+        size = 2750
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 48200
+        size = 72300
     }
 }
 #Bayan Tumen (176000/44000 POPS)
@@ -111,61 +111,61 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 825
+        size = 1238
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 425
+        size = 638
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 2050
+        size = 3075
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 425
+        size = 2125
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 37275
+        size = 55912
     }
 
     aristocrats = {
         culture = nanfaren
         religion = animist
-        size = 50
+        size = 75
     }
 
     clergymen = {
         culture = nanfaren
         religion = animist
-        size = 50
+        size = 75
     }
 
     artisans = {
         culture = nanfaren
         religion = animist
-        size = 125
+        size = 188
     }
 
     soldiers = {
         culture = nanfaren
         religion = animist
-        size = 25
+        size = 125
     }
 
     farmers = {
         culture = nanfaren
         religion = animist
-        size = 2750
+        size = 4125
     }
 }
 #Uliastay (140000/35000 POPS)
@@ -173,31 +173,31 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 650
+        size = 975
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 350
+        size = 525
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 1750
+        size = 2625
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 350
+        size = 1750
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 31900
+        size = 47850
     }
 }
 #Sainshand (71100/17775 POPS)
@@ -205,31 +205,31 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 350
+        size = 525
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 175
+        size = 262
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 875
+        size = 1312
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 175
+        size = 875
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 16200
+        size = 24300
     }
 }
 #Khatgal (152000/38000 POPS)
@@ -237,31 +237,31 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 750
+        size = 1125
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 375
+        size = 562
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 1500
+        size = 2250
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 375
+        size = 1875
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 35000
+        size = 52500
     }
 }
 #Bulgan (84000/21000 POPS)
@@ -269,31 +269,31 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 400
+        size = 600
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 200
+        size = 300
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 1050
+        size = 1575
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 225
+        size = 1125
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 17125
+        size = 25688
     }
 }
 #Khovd (120000/30000 POPS)
@@ -301,61 +301,61 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 350
+        size = 525
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 175
+        size = 262
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 900
+        size = 1350
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 175
+        size = 875
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 16400
+        size = 24600
     }
 
     aristocrats = {
         culture = nanfaren
         religion = sunni
-        size = 200
+        size = 300
     }
 
     clergymen = {
         culture = nanfaren
         religion = sunni
-        size = 100
+        size = 150
     }
 
     artisans = {
         culture = nanfaren
         religion = sunni
-        size = 600
+        size = 900
     }
 
     soldiers = {
         culture = nanfaren
         religion = sunni
-        size = 125
+        size = 625
     }
 
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 10975
+        size = 16462
     }
 }
 #Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan
@@ -363,30 +363,30 @@
     aristocrats = {
         culture = nanfaren
         religion = gelugpa
-        size = 150
+        size = 225
     }
 
     clergymen = {
         culture = nanfaren
         religion = gelugpa
-        size = 75
+        size = 112
     }
 
     artisans = {
         culture = nanfaren
         religion = gelugpa
-        size = 400
+        size = 600
     }
 
     soldiers = {
         culture = nanfaren
         religion = gelugpa
-        size = 75
+        size = 375
     }
 
     farmers = {
         culture = nanfaren
         religion = gelugpa
-        size = 7300
+        size = 10950
     }
 }

@@ -1,6 +1,6 @@
 owner = TTK
 controller = TTK
-add_core = TTK
+add_core = TBS
 add_core = CHI
 trade_goods = cotton
 life_rating = 35

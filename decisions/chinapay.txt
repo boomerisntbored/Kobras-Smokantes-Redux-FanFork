@@ -1,0 +1,22 @@
+political_decisions = {
+
+
+			
+	form_the_bunny_state = { 
+	potential = { 
+	tag = TTK
+	NOT = { exists = TBS }
+	}
+	allow = {
+	year = 1850
+	war = no
+	}
+	effect = {
+	prestige = 20
+	set_country_flag = TheBunnyState
+	change_tag = TBS
+	add_country_modifier = {
+	name = pedro
+	duration = 80000
+	}
+			}}}

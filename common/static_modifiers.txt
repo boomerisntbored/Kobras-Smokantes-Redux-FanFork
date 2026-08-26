@@ -21,9 +21,12 @@ mali_restoration_boost = {
 	education_efficiency_modifier = 0.5
 	icon = 17
 	}
-
-	
-
+pedro = { 
+       land_organisation = 0.2
+	   research_points_modifier = -0.4
+	   leadership_modifier = 0.1
+	   badboy = 0.1
+          }
 
 
 ##########################################################################

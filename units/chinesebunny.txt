@@ -20,10 +20,10 @@ chinese_bunny = {
 
 
 	#Building Costs
-	build_time = 120
+	build_time = 30
 	build_cost = {
 		cattle = 20
-		grain = 50
+		grain = 20
 	}
 	
 	supply_consumption = 1.0
